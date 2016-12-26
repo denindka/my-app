@@ -1,0 +1,9 @@
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #0e0e0d;
+  height: 100px; }
+  footer h1 {
+    color: #ffffff;
+    text-align: center; }

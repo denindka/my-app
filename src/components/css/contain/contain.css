@@ -1,0 +1,130 @@
+.container {
+  padding-bottom: 100px; }
+  .container .title-contain {
+    margin: 0 auto;
+    width: 80%; }
+    .container .title-contain h1 {
+      color: #0020f4; }
+  .container .contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%; }
+    .container .contain .genre {
+      width: 100%; }
+      .container .contain .genre .genre-description {
+        float: right;
+        margin-top: 10px;
+        text-align: center;
+        width: 77%; }
+        .container .contain .genre .genre-description h2 {
+          text-align: center; }
+          .container .contain .genre .genre-description h2 a {
+            color: #0c39f6;
+            cursor: pointer;
+            text-decoration: none; }
+      .container .contain .genre .genre-img {
+        float: left;
+        margin-top: 40px;
+        width: 20%; }
+        .container .contain .genre .genre-img img {
+          max-width: 100%; }
+    .container .contain .button-language {
+      margin-top: 20px;
+      width: 100%; }
+      .container .contain .button-language button {
+        float: right; }
+    .container .contain .title {
+      width: 100%;
+      text-align: center;
+      color: #0020f4; }
+    .container .contain .description-movie {
+      width: 100%;
+      text-align: justify;
+      text-align: center;
+      line-height: 1.8em; }
+    .container .contain .details {
+      width: 100%; }
+      .container .contain .details .genres {
+        margin: 10px 0;
+        text-align: center; }
+        .container .contain .details .genres span {
+          background-color: grey;
+          margin-left: 4px;
+          padding: 5px 10px; }
+          .container .contain .details .genres span a {
+            text-decoration: none;
+            color: #0e0e0e; }
+      .container .contain .details .details-movie {
+        text-align: center;
+        width: 100%; }
+        .container .contain .details .details-movie span {
+          margin-left: 15px;
+          text-decoration: underline; }
+      .container .contain .details .homepage {
+        margin-top: 15px;
+        text-align: center; }
+        .container .contain .details .homepage a {
+          font-size: 25px;
+          text-decoration: none; }
+    .container .contain .trailer {
+      text-align: center;
+      width: 100%; }
+    .container .contain .poster {
+      background-color: #f7f6f6;
+      margin: 20px 0 0;
+      width: 22%; }
+      .container .contain .poster a {
+        color: #161616;
+        text-decoration: none; }
+      .container .contain .poster h4 {
+        text-align: center; }
+      .container .contain .poster img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        padding-top: 25px; }
+    .container .contain .home-poster {
+      width: 46%;
+      background-color: #f7f7f7;
+      padding: 1%;
+      position: relative;
+      margin: 20px 0; }
+      .container .contain .home-poster:first-child {
+        width: 100%; }
+        .container .contain .home-poster:first-child img {
+          width: 30%; }
+      .container .contain .home-poster img {
+        float: left;
+        width: 35%; }
+      .container .contain .home-poster .description {
+        float: right;
+        margin: 0 2%;
+        text-align: justify;
+        width: 60%; }
+        .container .contain .home-poster .description .button-more {
+          padding-top: 30px;
+          bottom: 10px;
+          position: absolute;
+          right: 20px; }
+          .container .contain .home-poster .description .button-more button {
+            cursor: pointer;
+            border-color: #f2f2f2;
+            float: left;
+            padding: 10px 25px; }
+        .container .contain .home-poster .description .text-description {
+          display: block; }
+        .container .contain .home-poster .description h3, .container .contain .home-poster .description h4 {
+          text-align: center; }
+  .container .buttons {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 80%; }
+    .container .buttons button {
+      border-radius: 4px;
+      padding: 8px 20px; }
+    .container .buttons .right {
+      float: right; }
+    .container .buttons .left {
+      float: left; }

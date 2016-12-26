@@ -1,0 +1,16 @@
+$color-black: #0e0e0d;
+$color-white: #ffffff;
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: $color-black;
+    height: 100px;
+
+    h1{
+        color: $color-white;
+        text-align: center;
+    }
+}
